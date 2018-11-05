@@ -45,9 +45,14 @@ header{
 }
 
 /*Brand*/
+.brand { 
+    height: 20px;
+
+}
 .brand a,
 .brand img{
     display: block;
+    height: 150%;
 }
 /*Menu*/
 nav ul {
@@ -74,7 +79,7 @@ nav a:hover {
 /*Slider*/
 
 
-.sliderimg{
+.sliderimg {
     display: block;
     justify-content:space-between;
     
@@ -82,13 +87,13 @@ nav a:hover {
 
 /*Main*/
 
-main{
+main {
     display: flex;
     justify-content: space-between;
 }
 /*Article*/ 
-article{
-    width: 80%;
+aside {
+    width: 20%;
 }
 
 
